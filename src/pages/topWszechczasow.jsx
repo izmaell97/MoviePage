@@ -85,10 +85,10 @@ console.log(response.data)
 
 return(
       <Box   boxShadow={3} className={classes.base}>
-        <div className={classes.text}> Tu możesz obejrzeć top 100 filmów wraz z opisami podzielone na 5 stron.
+        <div className={classes.text}> Tu możesz obejrzeć top 100 filmów wraz z opisami.
         </div>
-          <div className={classes.text}>  wybierz jeden z przedziałów a następnie naciśnij przycisk potwiedź przedział</div>
-          <div className={classes.text}> odczekaj moment a nasepnie naciśnij przycisk wyświetl</div>
+          <div className={classes.text}>  niestety tu muszą zostać pobrane dane z kolejnej bazy</div>
+          <div className={classes.text}> jeżeli lista nie zadziała za pierwszym razem odczekaj moment i spróbuj ponownie</div>
           <div> ___</div>
           <Grid container spacing={1}    direction="column"  alignItems="stretch">
               <Grid container direction="row" spacing={1} justify="space-around">
